@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f0f8ff, #e6f2ff);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: linear-gradient(to right, #ff4d4d, #ff1a1a);
+  color: white;
+}
+
+#cart-container {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.item img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.total-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.total-box button {
+  background: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
