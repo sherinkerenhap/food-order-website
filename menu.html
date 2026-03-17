@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<header>
+<h2>Foodies</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="cart.html">Cart</a>
+</nav>
+</header>
+<div class="container">
+<h2>Our Menu</h2>
+<input type="text" id="searchFood" placeholder="Search food..." onkeyup="searchMenu()">
+<p id="notFound" style="color:red; display:none;">Food not available</p>
+</p>
+<div class="menu">
+<div class="card" data-name="Pizza">
+<img src="image.jpg/img1.jpg">
+<h3>Pizza</h3>
+<p>₹250</p>
+<button onclick="addToCart('Pizza',250)">Add to Cart</button>
+</div>
+<div class="card"data-name="Fries">
+<img src="image.jpg/img2.jpg">
+<h3>Fries</h3>
+<p>₹50</p>
+<button onclick="addToCart('Fries',50)">Add to Cart</button>
+</div>
+<div class="card" data-name="Fish Fry">
+<img src="image.jpg/img3.jpg">
+<h3>Fish Fry</h3>
+<p>₹350</p>
+<button onclick="addToCart('Fish Fry',350)">Add to Cart</button>
+</div>
+<div class="card" data-name="Burger">
+<img src="image.jpg/img4.jpg">
+<h3>Burger</h3>
+<p>₹150</p>
+<button onclick="addToCart('Burger',150)">Add to Cart</button>
+</div>
+<div class="card" data-name="Briyani">
+<img src="image.jpg/img5.jpg">
+<h3>Briyani</h3>
+<p>₹450</p>
+<button onclick="addToCart('Briyani',450)">Add to Cart</button>
+</div>
+<div class="card" data-name="Dosai">
+<img src="image.jpg/img6.jpg">
+<h3>Dosai</h3>
+<p>₹30</p>
+<button onclick="addToCart('Dosai',30)">Add to Cart</button>
+</div>
+<div class="card" data-name="Purri">
+<img src="image.jpg/img7.jpg">
+<h3>Purri</h3>
+<p>₹30</p>
+<button onclick="addToCart('Purri',30)">Add to Cart</button>
+</div>
+<div class="card" data-name="Chicken Fry">
+<img src="image.jpg/img8.jpg">
+<h3>Chicken Fry</h3>
+<p>₹180</p>
+<button onclick="addToCart('Chicken Fry',180)">Add to Cart</button>
+</div>
+</div>
+</div>
+<footer>
+<p>Foodies Delivery Service</p>
+</footer>
+</body>
+</html>
